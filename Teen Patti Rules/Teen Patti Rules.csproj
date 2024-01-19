@@ -368,6 +368,7 @@
     <Content Include="images\king_of_diamonds.svg" />
     <Content Include="images\king_of_hearts.svg" />
     <Content Include="images\king_of_spades.svg" />
+    <Content Include="images\NinadKanthi-WaterMark.png" />
     <Content Include="images\queen_of_clubs.svg" />
     <Content Include="images\queen_of_diamonds.svg" />
     <Content Include="images\queen_of_hearts.svg" />
