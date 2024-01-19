@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Teen Patti Cleared</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Rules", "Rules", "Home", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Scenarios", "Scenarios", "Home", new { area = "" }, null)</li>
+                    @*<li>@Html.ActionLink("Hierarchy Rules", "HierarchyRule", "Home", new { area = "" }, null)</li>*@
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <div style="position: absolute; top:-300px; left:-400px; height:150px; width:1500px; ">
+            <img id="img_ace_of_spades" height="80" src="~/images/ace_of_spades.svg">
+            <img id="img_ace_of_diamonds" height="80" src="~/images/ace_of_diamonds.svg">
+            <img id="img_ace_of_clubs" height="80" src="~/images/ace_of_clubs.svg">
+            <img id="img_ace_of_hearts" height="80" src="~/images/ace_of_hearts.svg">
+
+            <img id="img_king_of_clubs" height="80" src="~/images/king_of_clubs.svg">
+            <img id="img_king_of_diamonds" height="80" src="~/images/king_of_diamonds.svg">
+            <img id="img_king_of_hearts" height="80" src="~/images/king_of_hearts.svg">
+            <img id="img_king_of_spades" height="80" src="~/images/king_of_spades.svg">
+
+            <img id="img_queen_of_clubs" height="80" src="~/images/queen_of_clubs.svg">
+            <img id="img_queen_of_diamonds" height="80" src="~/images/queen_of_diamonds.svg">
+            <img id="img_queen_of_hearts" height="80" src="~/images/queen_of_hearts.svg">
+            <img id="img_queen_of_spades" height="80" src="~/images/queen_of_spades.svg">
+
+            <img id="img_jack_of_clubs" height="80" src="~/images/jack_of_clubs.svg">
+            <img id="img_jack_of_diamonds" height="80" src="~/images/jack_of_diamonds.svg">
+            <img id="img_jack_of_hearts" height="80" src="~/images/jack_of_hearts.svg">
+            <img id="img_jack_of_spades" height="80" src="~/images/jack_of_spades.svg">
+
+            <img id="img_10_of_clubs" height="80" src="~/images/10_of_clubs.svg">
+            <img id="img_10_of_diamonds" height="80" src="~/images/10_of_diamonds.svg">
+            <img id="img_10_of_hearts" height="80" src="~/images/10_of_hearts.svg">
+            <img id="img_10_of_spades" height="80" src="~/images/10_of_spades.svg">
+
+            <img id="img_9_of_clubs" height="80" src="~/images/9_of_clubs.svg">
+            <img id="img_9_of_diamonds" height="80" src="~/images/9_of_diamonds.svg">
+            <img id="img_9_of_hearts" height="80" src="~/images/9_of_hearts.svg">
+            <img id="img_9_of_spades" height="80" src="~/images/9_of_spades.svg">
+
+            <img id="img_8_of_clubs" height="80" src="~/images/8_of_clubs.svg">
+            <img id="img_8_of_diamonds" height="80" src="~/images/8_of_diamonds.svg">
+            <img id="img_8_of_hearts" height="80" src="~/images/8_of_hearts.svg">
+            <img id="img_8_of_spades" height="80" src="~/images/8_of_spades.svg">
+
+            <img id="img_7_of_clubs" height="80" src="~/images/7_of_clubs.svg">
+            <img id="img_7_of_diamonds" height="80" src="~/images/7_of_diamonds.svg">
+            <img id="img_7_of_hearts" height="80" src="~/images/7_of_hearts.svg">
+            <img id="img_7_of_spades" height="80" src="~/images/7_of_spades.svg">
+
+            <img id="img_6_of_clubs" height="80" src="~/images/6_of_clubs.svg">
+            <img id="img_6_of_diamonds" height="80" src="~/images/6_of_diamonds.svg">
+            <img id="img_6_of_hearts" height="80" src="~/images/6_of_hearts.svg">
+            <img id="img_6_of_spades" height="80" src="~/images/6_of_spades.svg">
+
+            <img id="img_5_of_clubs" height="80" src="~/images/5_of_clubs.svg">
+            <img id="img_5_of_diamonds" height="80" src="~/images/5_of_diamonds.svg">
+            <img id="img_5_of_hearts" height="80" src="~/images/5_of_hearts.svg">
+            <img id="img_5_of_spades" height="80" src="~/images/5_of_spades.svg">
+
+            <img id="img_4_of_clubs" height="80" src="~/images/4_of_clubs.svg">
+            <img id="img_4_of_diamonds" height="80" src="~/images/4_of_diamonds.svg">
+            <img id="img_4_of_hearts" height="80" src="~/images/4_of_hearts.svg">
+            <img id="img_4_of_spades" height="80" src="~/images/4_of_spades.svg">
+
+            <img id="img_3_of_clubs" height="80" src="~/images/3_of_clubs.svg">
+            <img id="img_3_of_diamonds" height="80" src="~/images/3_of_diamonds.svg">
+            <img id="img_3_of_hearts" height="80" src="~/images/3_of_hearts.svg">
+            <img id="img_3_of_spades" height="80" src="~/images/3_of_spades.svg">
+
+            <img id="img_2_of_clubs" height="80" src="~/images/2_of_clubs.svg">
+            <img id="img_2_of_diamonds" height="80" src="~/images/2_of_diamonds.svg">
+            <img id="img_2_of_hearts" height="80" src="~/images/2_of_hearts.svg">
+            <img id="img_2_of_spades" height="80" src="~/images/2_of_spades.svg">
+
+            <img id="img_black_joker" height="80" src="~/images/black_joker.svg">
+            <img id="img_red_joker" height="80" src="~/images/red_joker.svg">
+            <img id="img_greater_than" height="80" src="~/images/GreaterThan.svg">
+            <img id="img_greater_than_than_than" height="80" src="~/images/GreaterThanThanThan.svg">
+            <img id="img_brown" height="80" src="~/images/brown.svg">
+            <img id="img_grey" height="80" src="~/images/grey.svg">
+            <img id="img_blue" height="80" src="~/images/blue.svg">
+            <img id="img_equal" height="80" src="~/images/equal.svg">
+        </div>
+        @RenderBody()
+        @RenderSection("SPAViews", required: false)
+        <hr class="blackBorder" />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - The World of Teen Patti (WoTP) </p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
