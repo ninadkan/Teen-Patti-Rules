@@ -7,6 +7,12 @@
     "appInsights1": {
       "type": "appInsights.sdk",
       "connectionId": null
+    },
+    "secrets1": {
+      "resourceId": null,
+      "type": "secrets.user",
+      "connectionId": "ASPNETCORE_HOSTINGSTARTUP__KEYVAULT__CONFIGURATIONVAULT",
+      "secretStore": null
     }
   }
 }
