@@ -6,16 +6,16 @@
     <button class="collapsible">5 Card - One/Two/Three Jokers</button>
     <div class="content" height="150">
         <p>
-            <h3> 5 Cards are dealt and either alternate or sequence are joker</h3>
+            <h3> 5 Cards are dealt and either 2 joker combinations (sequence/alternate) or 3 jokers in a hand</h3>
         </p>
         <p>
             <canvas width="150">49,50,51,62,63</canvas>
             <canvas width="30">70</canvas>
-            <canvas width="150">60,61,60,63,64</canvas>
-            <canvas width="30">70</canvas>
             <canvas width="150">9,10,60,61,62</canvas>
             <canvas width="30">70</canvas>
             <canvas width="150">4,60,61,60,61</canvas>
+            <canvas width="30">70</canvas>
+            <canvas width="150">60,61,60,63,64</canvas>
             <canvas width="30">70</canvas>
             <canvas width="150">3,7,11,62,63</canvas>
             <canvas width="30">70</canvas>
@@ -26,9 +26,9 @@
                     <h4>Trail <strong>in hand </strong> defeats a trail created with joker(s)</h4>
                     <h5 style="margin-left: 40px">A trail of <strong>2</strong> in hand defeats <strong>queen</strong> trail with a joker</h5>
                 </li>
-                <li>
+                @*<li>
                     <h4>Trail created by all three jokers <strong>defeats</strong> any other trail created with a comibnation of one or two jokers </h4>
-                </li>
+                </li>*@
                 <li>
                     <h4>Trail created with two of a kind in hand and a joker defeats a trail created with two jokers</h4>
                     <h5 style="margin-left: 40px">Queen trail with two queen's in hand and <strong>one joker</strong> defeats an Ace trails with <strong>two jokers</strong></h5>
@@ -56,7 +56,7 @@
     </div>
 
     <hr class="blackBorder" />
-    <button class="collapsible">4 Card - One/Two/Three Jokers</button>
+    <button class="collapsible">4 Card - One/Two/Three Jokers in a hand</button>
     <div class="content" height="150">
         <p>
             <h3> 4 Cards are dealt and either one/two/three cards are joker</h3>
@@ -64,11 +64,11 @@
         <p>
             <canvas width="150">49,50,51,62</canvas>
             <canvas width="30">70</canvas>
-            <canvas width="150">60,61,60,63</canvas>
-            <canvas width="30">70</canvas>
             <canvas width="150">9,10,61,64</canvas>
             <canvas width="30">70</canvas>
             <canvas width="150">1,60,61,62</canvas>
+            <canvas width="30">70</canvas>
+            <canvas width="150">60,61,60,63</canvas>
             <canvas width="30">70</canvas>
             <canvas width="150">4,8,12,63</canvas>
             <ul>
@@ -89,7 +89,7 @@
             <canvas width="30">70</canvas>
             <canvas width="150">11,19,60,64</canvas>
             <canvas width="30">70</canvas>
-            <canvas width="150">1,6,60,62</canvas>
+            <canvas width="150">9,18,60,62</canvas>
             <ul>
                 <li>
                     <h4>Sequence <strong>in hand </strong> defeats a sequence created with joker(s)</h4>
@@ -113,11 +113,11 @@
         <p>
             <canvas width="150">49,50,51</canvas>
             <canvas width="30">70</canvas>
-            <canvas width="150">60,61,60</canvas>
-            <canvas width="30">70</canvas>
             <canvas width="150">9,10,61</canvas>
             <canvas width="30">70</canvas>
             <canvas width="150">1,60,61</canvas>
+            <canvas width="30">70</canvas>
+            <canvas width="150">60,61,60</canvas>
             <canvas width="30">70</canvas>
             <canvas width="150">4,8,12</canvas>
             <ul>
@@ -140,7 +140,7 @@
             <canvas width="30">70</canvas>
             <canvas width="150">23,27,60</canvas>
             <canvas width="30">70</canvas>
-            <canvas width="150">6,9,60</canvas>
+            <canvas width="150">21,27,60</canvas>
             <canvas width="30">70</canvas>
             <canvas width="150">4,16,61</canvas>
             <ul>

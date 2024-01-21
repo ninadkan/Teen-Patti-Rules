@@ -14,20 +14,22 @@
                 <li>
                     <h3><strong>Stake Increments: </strong>The stakes can be increased by the factor of 2. i.e. stakes can only be a subset of [1,2,4,8,16,32,64].</h3>
                     <h4 style="margin-left: 40px"><strong>64</strong> is the maximum stake allowed</h4>
-                    <h4 style="margin-left: 40px"> Stakes such as [3, 6, 7, 10, 12, 14, 18 ...] etc are <strong>NOT</strong> allowed</h4>
+                    <h4 style="margin-left: 40px">Stakes such as [3, 6, 7, 10, 12, 14, 18 ...] etc are <strong>NOT</strong> allowed</h4>
                 </li>
                 <li>
                     <h3><strong>Blind Stakes: </strong> Only 3 rounds of blind play is permitted.</h3>
                     <h4 style="margin-left: 40px">In the first round, blind stake can only be increased up-to a maximum of <strong>4</strong></h4>
-                    <h4 style="margin-left: 40px">With only two players remaining, blind show is <strong>permitted</strong>.</h4> 
-                    <h5 style="margin-left: 80px">Player playing blind has to add <strong>only</strong> the blind stake into the kitty</h5>
+                    <h4 style="margin-left: 40px">With only two players remaining, blind show is <strong>permitted</strong>.</h4>
+                    <h4 style="margin-left: 80px">Player playing blind has to add <strong>only</strong> the blind stake into the kitty</h4>
                     <h4 style="margin-left: 40px">Maximum blind stake allowed = <strong>16</strong></h4>
                 </li>
                 <li>
                     <h3><strong>Back Show: </strong>No Back show allowed till the first round is completed</h3>
-                    <h4 style="margin-left: 40px"> Back show is permitted by adding the current running stake in the kitty</h4>
-                    <h4 style="margin-left: 40px"> Back show cannot jump across any previous player who is playing blind</h4>
-                    <h4 style="margin-left: 40px"> Front show permitted by adding double the current stake in the kitty. i.e if the current stake is <strong>4</strong>, player has to add <strong>8</strong> into the kitty</h4>
+                    <h4 style="margin-left: 40px">Back show is permitted by adding the current running stake in the kitty</h4>
+                    <h4 style="margin-left: 40px">Back show cannot jump across any previous player who is playing blind</h4>
+                    <h4 style="margin-left: 40px">Front show permitted by adding double the current stake in the kitty. i.e if the current stake is <strong>4</strong>, player has to add <strong>8</strong> into the kitty</h4>
+                    <h4 style="margin-left: 40px">One player can undertake only one back-show in one round. </h4>
+                    <h5 style="margin-left: 80px">Other active players, who have not participated in a blind show for the current round, are still eligible </h5>
                 </li>
                 <li>
                     <h3><strong>Both hands equal: </strong>When all the cards are of the same value between the two players, the one asking the show will lose</h3>
@@ -59,26 +61,6 @@
             <canvas width="45">72</canvas>
             <canvas width="120">52</canvas>
         </p>
-            @*<img height="75" src="~/images/ace_of_spades.svg" style="margin:10px 0px 5px 0px; border : 1px solid black"></img>
-            <img height="30" style="vertical-align:middle;" src="~/images/GreaterThan.svg">
-            <img height="75" src="~/images/ace_of_hearts.svg" style="margin:10px 0px 5px 0px; border : 1px solid black"></img>
-            <img height="30" style="vertical-align:middle;" src="~/images/GreaterThan.svg">
-            <img height="75" src="~/images/ace_of_diamonds.svg" style="margin:10px 0px 5px 0px; border : 1px solid black"></img>
-            <img height="30" style="vertical-align:middle;" src="~/images/GreaterThan.svg">
-            <img height="75" src="~/images/ace_of_clubs.svg" style="margin:10px 0px 5px 0px; border : 1px solid black"></img>
-            <img height="30" style="vertical-align:middle;" src="~/images/GreaterThan.svg">
-            <img height="75" src="~/images/king_of_spades.svg" style="margin:10px 0px 5px 0px; border : 1px solid black"></img>
-            <img height="30" style="vertical-align:middle;" src="~/images/GreaterThan.svg">
-            <img height="75" src="~/images/king_of_hearts.svg" style="margin:10px 0px 5px 0px; border : 1px solid black"></img>
-            <img height="30" style="vertical-align:middle;" src="~/images/GreaterThan.svg">
-            <img height="75" src="~/images/king_of_diamonds.svg" style="margin:10px 0px 5px 0px; border : 1px solid black"></img>
-            <img height="40" style="vertical-align:middle;" src="~/images/GreaterThanThanThan.svg">
-            <img height="75" src="~/images/2_of_hearts.svg" style="margin:10px 0px 5px 0px; border : 1px solid black"></img>
-            <img height="30" style="vertical-align:middle;" src="~/images/GreaterThan.svg">
-            <img height="75" src="~/images/2_of_diamonds.svg" style="margin:10px 0px 5px 0px; border : 1px solid black"></img>
-            <img height="30" style="vertical-align:middle;" src="~/images/GreaterThan.svg">
-            <img height="75" src="~/images/2_of_clubs.svg" style="margin:10px 0px 5px 0px; border : 1px solid black"></img>
-        </p>*@
     </div>
 
     <hr class="blackBorder" />
@@ -180,23 +162,6 @@
     <div class="pagebreak"></div>
     <button class="collapsible"> 4. All Same Colour : [A] > [K] > [Q] > ... > [3] > [2] </button>
     <div class="content" height="150">
-        @*<h5><strong>Option 1: Hierarchy Rule Applies</strong></h5>
-        <p>
-            <canvas width="150">1,21,49</canvas>
-            <canvas width="30">70</canvas>
-            <canvas width="150">2,6,14</canvas>
-            <canvas width="30">70</canvas>
-            <canvas width="150">7,11,19</canvas>
-            <canvas width="30">70</canvas>
-            <canvas width="70">71</canvas>
-            <canvas width="30">70</canvas>
-            <canvas width="150">33,45,49</canvas>
-            <canvas width="30">70</canvas>
-            <canvas width="150">35,47,51</canvas>
-            <canvas width="30">70</canvas>
-            <canvas width="150">36,40,48</canvas>
-        </p>
-        <h6>When the highest card are same, Spade > Hearts > Diamonds > Clubs</h6>*@
         <h5><strong> Highest card wins</strong></h5>
         <p>
             <canvas width="150">2,6,14</canvas>
@@ -222,25 +187,6 @@
     <div class="pagebreak"></div>
     <button class="collapsible"> 5. Pair : [A] > [K] > [Q] > ... > [3] > [2] </button>
     <div class="content">
-        @*<h5><strong>Option 1: Hierarchy Rule Applies</strong>. </h5>
-        <p>
-            <h6>When deciding the winner, only the pairs are compared and the third card from both the hands is ignored. </h6>
-            <canvas width="150">1,4,52</canvas>
-            <canvas width="30">70</canvas>
-            <canvas width="150">2,3,5</canvas>
-            <canvas width="30">70</canvas>
-            <canvas width="150">1,5,6</canvas>
-        <p></p>
-        <h6>Similarly.</h6>
-        <canvas width="150">2,5,8</canvas>
-        <canvas width="30">70</canvas>
-        <canvas width="150">1,6,7</canvas>
-        <p></p>
-        <h6>Similarly.</h6>
-        <canvas width="150">2,49,52</canvas>
-        <canvas width="30">70</canvas>
-        <canvas width="150">1,50,51</canvas>
-        </p>*@
         <h5><strong>Strongest third card wins</strong>. </h5>
         <p>
             <h6>When deciding the winner, IF the pairs are at the same rank, player holding the highest third card wins </h6>
@@ -275,23 +221,6 @@
     <div class="pagebreak"></div>
     <button class="collapsible"> Muflish round, lowest card wins : [2] > [3] > [4] > ... > [K] > [A] </button>
     <div class="content" height="150">
-        @*</p>
-        <h5><strong>Option 1: Hierarchy Rule Applies</strong>. </h5>
-        <h6>Highest card determines who loses.Hierarchy rule applies on the highest card</h6>
-        <canvas width="150">40,43,52</canvas>
-        <canvas width="30">70</canvas>
-        <canvas width="150">39,46,51</canvas>
-        <canvas width="30">70</canvas>
-        <canvas width="150">34,39,46</canvas>
-        <canvas width="30">70</canvas>
-        <canvas width="70">71</canvas>
-        <canvas width="30">70</canvas>
-        <canvas width="150">22,23,40</canvas>
-        <canvas width="30">70</canvas>
-        <canvas width="150">28,36,40</canvas>
-        <canvas width="30">70</canvas>
-        <canvas width="150">42,47,52</canvas>
-        </p>*@
         <h4><strong>Lowest cards wins</strong>. </h4>
         <h5>If the highest card is in the same rank with both hands, then the second highest card is compared. The one with higher level loses</h5>
         <h5>If the highest card and second highest card is at the same rank with both hands, then the third highest card is compared. The one with higher level loses. </h5>
