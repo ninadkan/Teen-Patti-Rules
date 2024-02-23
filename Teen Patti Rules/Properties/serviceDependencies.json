@@ -7,7 +7,10 @@
       "ignored": "true"
     },
     "secrets1": {
-      "type": "secrets"
+      "type": "secrets",
+      "connectionId": "",
+      "suggestion": "true",
+      "ignored": "true"
     },
     "mssql1": {
       "type": "mssql",
