@@ -1,0 +1,11 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section SPAViews {
+    @Html.Partial("_CommonRules")
+}
+@section Scripts{
+    @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/app")
+    @Scripts.Render("~/bundles/imageJs")
+}

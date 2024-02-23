@@ -28,5 +28,10 @@ namespace Teen_Patti_Rules.Controllers
         {
             return View();
         }
+
+        public ActionResult CommonRules()
+        {
+            return View();
+        }
     }
 }

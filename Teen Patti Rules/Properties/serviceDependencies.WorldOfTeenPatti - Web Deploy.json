@@ -1,22 +1,3 @@
 {
-  "dependencies": {
-    "appInsights1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup1')]/providers/microsoft.insights/components/WorldOfTeenPatti",
-      "type": "appInsights.azure",
-      "connectionId": "APPINSIGHTS_INSTRUMENTATIONKEY",
-      "secretStore": "AzureAppSettings"
-    },
-    "secrets1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup')]/providers/Microsoft.KeyVault/vaults/ninadkmlworksp3300723743",
-      "type": "secrets.keyVault",
-      "connectionId": "ASPNETCORE_HOSTINGSTARTUP__KEYVAULT__CONFIGURATIONVAULT",
-      "secretStore": "AzureAppSettings"
-    },
-    "mssql1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/teenpattirulesdbserver/databases/Teen Patti Rules_db",
-      "type": "mssql.azure",
-      "connectionId": "DefaultConnection",
-      "secretStore": "AzureAppSettings"
-    }
-  }
+  "dependencies": {}
 }

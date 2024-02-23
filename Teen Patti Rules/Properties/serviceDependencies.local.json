@@ -1,18 +1,13 @@
 {
   "dependencies": {
-    "mssql1": {
-      "type": "mssql.local",
-      "connectionId": "DefaultConnection"
-    },
-    "appInsights1": {
-      "type": "appInsights.sdk",
-      "connectionId": null
-    },
     "secrets1": {
-      "resourceId": null,
-      "type": "secrets.user",
-      "connectionId": "ASPNETCORE_HOSTINGSTARTUP__KEYVAULT__CONFIGURATIONVAULT",
-      "secretStore": null
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/teen-patti-rulesdbserver/databases/Teen Patti Rules_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings",
+      "secretStore": "LocalSecretsFile"
     }
   }
 }

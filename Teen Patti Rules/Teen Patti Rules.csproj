@@ -402,6 +402,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="ApplicationInsights.config" />
+    <None Include="Properties\PublishProfiles\TeenPattiRulesAppService - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\WorldOfTeenPatti - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -459,6 +460,8 @@
     <Content Include="Views\Home\_HierarchyRule.cshtml" />
     <Content Include="Views\Home\Scenarios.cshtml" />
     <Content Include="Views\Home\_Scenarios.cshtml" />
+    <Content Include="Views\Home\CommonRules.cshtml" />
+    <Content Include="Views\Home\_CommonRules.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
